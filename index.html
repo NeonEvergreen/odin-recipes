@@ -3,6 +3,20 @@
     <head>
         <meta charset="utf-8">
         <title>odin recipes</title>
+        <link rel="stylesheet" href="./css/styles.css"/>
+        <style>
+            .dish-link{
+                font-weight: 700;
+            }
+            .index.dish-description{
+                font-size: 120%;
+                font-weight: 100;
+            }
+            .index.title{
+                font-size: 110%;
+                margin: 0rem 2rem;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -12,28 +26,28 @@
         </header>
        <section>
             <div>
-                <img src="./images/cooking_logo.jpeg" alt="a wooden table with vegetables,fruits,cheese and other ingredients placed on them along with basting spoons.">
+                <img class="cooking-generic" src="./images/cooking_logo.jpeg" alt="a wooden table with vegetables,fruits,cheese and other ingredients placed on them along with basting spoons.">
             </div>
-            <div>
-                <h4>Welcome to the <em>Odin's cooking club</em>!</h5>
+            <div class="index">
+                <h4 class="index title">Welcome to the <em>Odin's cooking club</em>!</h5>
                 <section id="dishes-list">
-                    <ul>
-                        <li>
+                    <ul class="index unorder-list">
+                        <li class="index list">
                             <div class="dish">
-                            <h5><a href="./recipes/brownie.html">Brownie Mix-Black Bean Brownies</a></h5>
-                            <p>You won't believe how chocolate-y and moist these brownies are.</p>
+                            <p class="index dish-link"><a href="./recipes/brownie.html">Brownie Mix-Black Bean Brownies</a></p>
+                            <p class="index dish-description">You won't believe how chocolate-y and moist these brownies are.</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="index list">
                             <div class="dish">
-                                <h5><a href="./recipes/beef-pilaf.html">Cajun-Style Rice Pilaf</a></h5>
-                                <p>Bring the spirit of Bourbon Street to your gathering with this modern take on a rice pilaf with Italian sausage and shrimp!</p>
+                                <p class="index dish-link"><a href="./recipes/beef-pilaf.html">Cajun-Style Rice Pilaf</a></p>
+                                <p class="index dish-description">Bring the spirit of Bourbon Street to your gathering with this modern take on a rice pilaf with Italian sausage and shrimp!</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="index list">
                             <div>
-                                <h5><a href="./recipes/seafood-sausage.html">Seafood Sausage</a></h5>
-                                <p>A great, highly underrated way to take less than thrilling seafood</p>
+                                <p class="index dish-link"><a href="./recipes/seafood-sausage.html">Seafood Sausage</a></p>
+                                <p class="index dish-description">A great, highly underrated way to take less than thrilling seafood</p>
                             </div>
                         </li>
                     </ul>
