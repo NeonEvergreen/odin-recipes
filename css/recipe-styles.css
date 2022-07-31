@@ -1,3 +1,6 @@
 #recipe-body h3{
     font-weight: 500;
 }
+footer a:hover{
+    font-size: 175%;
+}
