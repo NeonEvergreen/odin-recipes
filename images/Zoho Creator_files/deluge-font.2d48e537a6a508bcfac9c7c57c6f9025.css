@@ -1,0 +1,74 @@
+/*font icons css starts*/
+
+@font-face {
+  font-family: 'dre-fonticons';
+  src: url('../fonts/dre-fonticons.3f37f41f60e89eda51c38dd8f94f3e1f.eot?78a430');
+  src: url('../fonts/dre-fonticons.3f37f41f60e89eda51c38dd8f94f3e1f.eot?78a430#iefix') format('embedded-opentype'), url('../fonts/dre-fonticons.c763e039d864a2774148a308cefc9d64.ttf?78a430') format('truetype'), url('../fonts/dre-fonticons.d0838677a8f0a35147a2b0438acefa87.woff?78a430') format('woff'), url('../fonts/dre-fonticons.50bd676400b36e21d72e065140e22b59.svg?78a430#dre-fonticons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.de {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dre-fonticons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.de-tick:before {
+  content: "\e90b";
+}
+
+.de-sun:before {
+  content: "\e90a";
+}
+
+.de-code:before {
+  content: "\e906";
+}
+
+.de-edit:before {
+  content: "\e909";
+}
+
+.de-insert:before {
+  content: "\e905";
+}
+
+.de-close:before {
+  content: "\e900";
+}
+
+.de-code1:before {
+  content: "\e901";
+}
+
+.de-arrow-down:before {
+  content: "\e902";
+}
+
+.de-filter:before {
+  content: "\e903";
+}
+
+.de-help:before {
+  content: "\e904";
+}
+
+.de-keyboard:before {
+  content: "\e907";
+}
+
+.de-arrow-up:before {
+  content: "\e908";
+}
+
+/*font icons css ends*/
